@@ -1,0 +1,542 @@
+🔑 Got authentication token
+
+🔍 Fetching deployment info for: dpl_4pR4BvNZikEbkLBp9VannxmUWKPC
+   Resolving teams...
+   Trying dpl_4pR4BvNZikEbkLBp9VannxmUWKPC in personal account...
+✅ Got deployment info
+
+📦 Deployment ID:  dpl_4pR4BvNZikEbkLBp9VannxmUWKPC
+🌐 Deployment URL: create4moments-gg2i3m8hv-abdulrazzaq3674-2253s-projects.vercel.app
+📁 Project:        create4moments-app
+
+📋 Fetching file tree from API...
+
+✅ Got file tree (17 top-level entries)
+
+📁 Output directory: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source
+
+🗑️  Clearing previous download...
+
+⬇️  Downloading files...
+   (Use --verbose to see detailed progress)
+
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-1.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-2.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-3.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-4.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.38 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.39 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.39 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.39 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.40 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.40 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.40 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.58 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.58 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.59 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.59 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.59 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.00 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.00 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.00 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.01 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.56 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.57 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.57 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.57 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.18 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.18 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.18 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.19 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.25 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.25 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.26 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.27 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.27 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.29 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.29 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.30 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.30 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.32 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.33 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.33 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.34 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.34 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.35 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.35 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.35 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.36 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.36 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.38 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.38 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.38 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.39 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.39 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.40 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.41 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.43 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.45 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.45 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.45 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM (3).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.47 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.47 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.48 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.48 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.48 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.50 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.50 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.51 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.52 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.52 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.53 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.54 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.54 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.54 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.55 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.55 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.55 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.56 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.56 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.40 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.40 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.40 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.41 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.46 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.46 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.46 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.47 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.22 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.23 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.23 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.24 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.25 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.50 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.50 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.51 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.51 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.51 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.52 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.52 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.52 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.53 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.53 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.53 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.29 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.29 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.30 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.30 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.31 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.31 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Corporate Decor Theme\Corporate_annual_celebration_sta…_2K_20260927172904.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Corporate Decor Theme\Corporate_gala_in_hotel_ballroom_2K_20260927172923.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.45 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.45 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.46 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.48 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.51 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.51 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.52 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.52 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.53 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.53 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.53 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.54 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.54 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.54 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.55 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.55 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.55 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.56 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.45 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.45 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.46 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.48 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.51 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.51 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.52 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.52 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.53 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.53 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.53 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.54 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.54 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.54 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.55 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.55 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.55 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.56 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Courtyard_Haldi_setup_decorated_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Floral_archway_entrance_for_event_2K_20260927172614.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_ceremony_outdoor_decoratio…_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_ceremony_outdoor_decoratio…_2K_20260927172626.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_stage_with_floral_backdrop_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_stage_with_floral_backdrop_2K_20260927172619.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Mehndi_floral_stage_setup_2K_20260927172742.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Poolside_Haldi_decoration_at_resort_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Bohemian_Mehndi_lounge_with_rugs_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Mehndi_floral_stage_setup_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Mehndi_seating_area_with_canopies_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Outdoor_garden_Mehndi_setup_20260927174533.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.24 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.25 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.26 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.26 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.27 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.27 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.27 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.28 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.28 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.28 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.29 PM (1).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.29 PM (2).jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.29 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.30 PM.jpeg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\birthday-parties.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\center-drapes.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\corporate-events.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\destination-weddings.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\haldi-mehandi.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\stage-entertainment.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\wedding-decor.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\videos\Dancers_performing_on_corporate_…_20260928022210.mp4
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\videos\dancing-performing-on-corporate.mp4
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\create4moments-logo.svg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\dancing-performing-on-corporate.mp4
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\file.svg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\globe.svg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero-poster.jpg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\logo.png
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\logo.svg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\next.svg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\vercel.svg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\window.svg
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\anniversary-theme\page.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\api\themes\route.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\birthday-theme\page.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\gallery\page.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\themes\anniversary-theme\page.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\themes\birthday-theme\page.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\favicon.ico
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\globals.css
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\layout.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\page.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\AestheticConfigurator.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\BookingModal.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\BudgetEstimatorModal.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\CaseStudyModal.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\CommissionScheduler.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\EventEstimator.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\FAQSection.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\FloatingVIPConcierge.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveArtistCard.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveCategoryCard.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveEntertainmentCard.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveShowcaseCard.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\Lightbox.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\MasterGallerySlider.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\Navbar.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\QuickEstimateTeaser.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\QuickViewModal.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\SecureClientVault.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\SpatialLayoutVisualizer.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\StatsBanner.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\TestimonialsSection.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\ThemeCard.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\ThemeShowcaseBanner.tsx
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\data\caseStudies.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\data\services.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\data\wpApi.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\utils\whatsapp.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\AGENTS.md
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\CLAUDE.md
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\README.md
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\c4m-portfolio-engine.php
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\eslint.config.mjs
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\next-env.d.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\next.config.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\package-lock.json
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\package.json
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\postcss.config.js
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\postcss.config.mjs
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\tailwind.config.ts
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\tsconfig.json
+✅ Downloaded: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\tsconfig.tsbuildinfo
+
+🎉 All files processed successfully!
+
+📊 Running comparison...
+
+📁 Total files: 245
+   ✅ Downloaded: 245
+   ⏭️  Skipped: 0
+   ❌ Failed: 0
+💾 Total size: 72.10 MB
+
+📈 File types breakdown:
+   jpeg             157 files
+   tsx               30 files
+   jpg               26 files
+   ts                 8 files
+   svg                7 files
+   mp4                3 files
+   md                 3 files
+   json               3 files
+   mjs                2 files
+   png                1 files
+
+🌳 File structure tree:
+
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\AGENTS.md
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\c4m-portfolio-engine.php
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\CLAUDE.md
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\eslint.config.mjs
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\next-env.d.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\next.config.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\package-lock.json
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\package.json
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\postcss.config.js
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\postcss.config.mjs
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\create4moments-logo.svg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\dancing-performing-on-corporate.mp4
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\file.svg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\globe.svg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero-poster.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-1.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-2.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-3.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\hero\hero-slide-4.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\logo.png
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\logo.svg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\next.svg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.38 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.39 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.39 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.39 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.40 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.40 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\25th anniversary theme\WhatsApp Image 2026-09-26 at 11.36.40 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.58 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.58 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.59 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.59 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.35.59 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.00 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.00 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.00 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\50 Anniversary Theme\WhatsApp Image 2026-09-26 at 11.36.01 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.56 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.57 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.57 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.23.57 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.18 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.18 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.18 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Adult Birthday Theme\WhatsApp Image 2026-09-26 at 11.38.19 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.25 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.25 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.26 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.27 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.27 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.29 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.29 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.30 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.30 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.32 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.33 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.33 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.34 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.34 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.35 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.35 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.35 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.36 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.36 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.38 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.38 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.38 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.39 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.39 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.40 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.41 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.43 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.45 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.45 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.45 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM (3).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.46 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.47 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.47 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.48 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.48 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.48 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.50 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.50 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.51 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.52 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.52 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.53 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.54 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.54 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.54 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.55 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.55 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.55 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.56 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.19.56 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.40 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.40 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.40 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.20.41 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.46 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.46 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.46 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.21.47 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.22 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.23 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.23 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.24 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Birthday Theme\WhatsApp Image 2026-09-26 at 11.22.25 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.50 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.50 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.51 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.51 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.51 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.52 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.52 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.52 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.53 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.53 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Baby Welcome Decoration\WhatsApp Image 2026-09-26 at 11.24.53 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.29 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.29 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.30 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.30 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.31 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Car Decor\WhatsApp Image 2026-09-26 at 11.34.31 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Corporate Decor Theme\Corporate_annual_celebration_sta…_2K_20260927172904.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Corporate Decor Theme\Corporate_gala_in_hotel_ballroom_2K_20260927172923.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.45 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.45 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.45 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.45 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.46 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.46 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.48 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.48 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.51 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.51 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.51 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.51 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.52 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.52 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.52 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.52 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.53 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.53 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.53 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.53 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.53 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.53 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.54 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.54 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.54 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.54 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.54 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.54 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.55 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.55 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.55 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.55 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.55 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.55 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Decor\WhatsApp Image 2026-09-26 at 11.23.56 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Couple Room Décor\WhatsApp Image 2026-09-26 at 11.23.56 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Courtyard_Haldi_setup_decorated_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Floral_archway_entrance_for_event_2K_20260927172614.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_ceremony_outdoor_decoratio…_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_ceremony_outdoor_decoratio…_2K_20260927172626.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_stage_with_floral_backdrop_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Haldi_stage_with_floral_backdrop_2K_20260927172619.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Mehndi_floral_stage_setup_2K_20260927172742.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Haldi Decor Theme\Poolside_Haldi_decoration_at_resort_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Bohemian_Mehndi_lounge_with_rugs_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Mehndi_floral_stage_setup_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Mehndi_seating_area_with_canopies_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Mehndi Decor Theme\Outdoor_garden_Mehndi_setup_20260927174533.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.24 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.25 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.26 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.26 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.27 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.27 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.27 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.28 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.28 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.28 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.29 PM (1).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.29 PM (2).jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.29 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\photos\Rooftop Party Theme\WhatsApp Image 2026-09-26 at 11.28.30 PM.jpeg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\birthday-parties.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\center-drapes.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\corporate-events.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\destination-weddings.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\haldi-mehandi.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\stage-entertainment.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\showcase\wedding-decor.jpg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\vercel.svg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\videos\Dancers_performing_on_corporate_…_20260928022210.mp4
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\videos\dancing-performing-on-corporate.mp4
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\public\window.svg
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\README.md
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\anniversary-theme\page.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\api\themes\route.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\birthday-theme\page.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\favicon.ico
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\gallery\page.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\globals.css
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\layout.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\page.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\themes\anniversary-theme\page.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\app\themes\birthday-theme\page.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\AestheticConfigurator.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\BookingModal.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\BudgetEstimatorModal.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\CaseStudyModal.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\CommissionScheduler.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\EventEstimator.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\FAQSection.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\FloatingVIPConcierge.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveArtistCard.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveCategoryCard.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveEntertainmentCard.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\InteractiveShowcaseCard.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\Lightbox.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\MasterGallerySlider.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\Navbar.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\QuickEstimateTeaser.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\QuickViewModal.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\SecureClientVault.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\SpatialLayoutVisualizer.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\StatsBanner.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\TestimonialsSection.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\ThemeCard.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\components\ThemeShowcaseBanner.tsx
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\data\caseStudies.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\data\services.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\data\wpApi.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\src\utils\whatsapp.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\tailwind.config.ts
+├── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\tsconfig.json
+└── 📄 C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\source\tsconfig.tsbuildinfo
+
+✨ Download and verification complete!
+📄 Full log saved to: C:\craft4events\out\dpl_4pR4BvNZikEbkLBp9VannxmUWKPC\download-log.txt
+   (Use --verbose to see file tree and skipped files)
+

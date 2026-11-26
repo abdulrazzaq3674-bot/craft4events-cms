@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-cream: #ffffff;
+  --color-gold: #C5A880;
+  --color-lavender: #E8E0F0;
+  --color-lavender-deep: #7B5EA7;
+  --color-maroon: #8B263E;
+  --color-charcoal: #2D2D2D;
+  background-color: #ffffff !important;
+}
+
+html,
+body {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  color: #2D2D2D;
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+::selection {
+  background-color: #E8E0F0;
+  color: #2D2D2D;
+}
+
+/* Custom refined scrollbar — lavender + gold */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #D8C5A8, #B8A8D0);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #C5A880, #7B5EA7);
+}
+
+/* Smooth focus rings with lavender accent */
+*:focus-visible {
+  outline: 2px solid #7B5EA7;
+  outline-offset: 2px;
+}

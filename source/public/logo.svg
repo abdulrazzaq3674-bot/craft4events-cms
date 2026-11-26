@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 68" fill="none">
+  <!-- Luxury Crest / Monogram Emblem -->
+  <g transform="translate(12, 10)">
+    <!-- Outer Diamond / Geometric Architectural Crest -->
+    <path d="M24 0L48 24L24 48L0 24Z" stroke="#C5A880" stroke-width="1.2" fill="none" opacity="0.9"/>
+    <path d="M24 5L43 24L24 43L5 24Z" stroke="#FFFFFF" stroke-width="0.8" fill="none" opacity="0.45"/>
+    <!-- Stylized Roman Numeral IV & Architectural Monogram -->
+    <path d="M17 14V34" stroke="#C5A880" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M17 28H29" stroke="#C5A880" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M27 17V34" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="24" cy="24" r="1.5" fill="#C5A880"/>
+  </g>
+  
+  <!-- Typography Group -->
+  <g transform="translate(76, 14)">
+    <!-- "CREATE 4 MOMENTS" -->
+    <text x="0" y="21" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="20" font-weight="400" letter-spacing="0.26em" fill="#FFFFFF">
+      CREATE <tspan font-style="italic" font-weight="300" fill="#C5A880">4</tspan> MOMENTS
+    </text>
+    <!-- "GLOBAL EVENT ARCHITECTURE" -->
+    <text x="2" y="36" font-family="'Montserrat', system-ui, -apple-system, sans-serif" font-size="7.5" font-weight="500" letter-spacing="0.36em" fill="#E7E5E4" opacity="0.85">
+      GLOBAL EVENT ARCHITECTURE
+    </text>
+  </g>
+</svg>
