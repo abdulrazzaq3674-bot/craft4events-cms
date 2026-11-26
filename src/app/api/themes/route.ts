@@ -1,4 +1,4 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
 export async function GET() {
   const wpBase = process.env.NEXT_PUBLIC_WORDPRESS_URL || "http://create4moments.local";
@@ -6,7 +6,9 @@ export async function GET() {
   try {
     const res = await fetch(`${wpBase}/wp-json/wp/v2/c4m-themes?_embed&per_page=50`, {
       cache: "no-store",
+      signal: AbortSignal.timeout(5000),
       headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; Craft4Events-NextJS/1.0)",
         "Accept": "application/json",
       },
     });

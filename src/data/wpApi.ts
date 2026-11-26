@@ -176,12 +176,19 @@ export function formatWhatsAppHref(phone: string, text?: string): string {
     : `https://wa.me/${digits}`;
 }
 
+const WP_FETCH_HEADERS: HeadersInit = {
+  "User-Agent": "Mozilla/5.0 (compatible; Craft4Events-NextJS/1.0)",
+  Accept: "application/json",
+};
+
 /**
  * Fetches latest dynamic site content from WordPress /site_content using ISR (revalidate: 60s).
  */
 export async function fetchSiteContent(): Promise<SiteContent> {
   try {
     const res = await fetch(`${WP_API_URL}/site_content?_embed&per_page=1`, {
+      headers: WP_FETCH_HEADERS,
+      signal: AbortSignal.timeout(5000),
       next: { revalidate: 60 },
     });
 
@@ -213,7 +220,10 @@ export async function fetchSiteContent(): Promise<SiteContent> {
         DEFAULT_SITE_CONTENT.owner_email
       ),
     };
-  } catch {
+  } catch (error) {
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      return DEFAULT_SITE_CONTENT;
+    }
     return DEFAULT_SITE_CONTENT;
   }
 }
@@ -224,6 +234,8 @@ export async function fetchSiteContent(): Promise<SiteContent> {
 export async function fetchGalleryAlbums(): Promise<WpGalleryAlbum[]> {
   try {
     const res = await fetch(`${WP_API_URL}/gallery_album?_embed&per_page=100`, {
+      headers: WP_FETCH_HEADERS,
+      signal: AbortSignal.timeout(5000),
       next: { revalidate: 60 },
     });
 
@@ -266,7 +278,10 @@ export async function fetchGalleryAlbums(): Promise<WpGalleryAlbum[]> {
     }
 
     return albums;
-  } catch {
+  } catch (error) {
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      return [];
+    }
     return [];
   }
 }
@@ -274,6 +289,8 @@ export async function fetchGalleryAlbums(): Promise<WpGalleryAlbum[]> {
 export async function fetchLiveThemesFromWP(): Promise<WpThemeAdapted[]> {
   try {
     const res = await fetch(`${WP_API_URL}/posts?_embed&per_page=100`, {
+      headers: WP_FETCH_HEADERS,
+      signal: AbortSignal.timeout(5000),
       next: { revalidate: 60 },
     });
 
@@ -309,7 +326,10 @@ export async function fetchLiveThemesFromWP(): Promise<WpThemeAdapted[]> {
         ],
       };
     });
-  } catch {
+  } catch (error) {
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      return [];
+    }
     return [];
   }
 }
