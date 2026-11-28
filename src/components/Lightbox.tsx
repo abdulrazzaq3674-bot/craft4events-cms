@@ -1,10 +1,12 @@
 "use client";
 
 import React, { useEffect, useState, useCallback } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, MessageCircle } from "lucide-react";
 import { useSwipeable } from "react-swipeable";
 import { openWhatsApp } from "@/utils/whatsapp";
+import { IMAGE_SHIMMER_BLUR_DATA_URL } from "@/data/wpApi";
 
 export interface LightboxPhotoItem {
   id?: string;
@@ -137,12 +139,16 @@ export default function Lightbox({
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.96 }}
             transition={{ duration: 0.25, ease: "easeOut" }}
-            className="relative flex items-center justify-center max-h-[78vh] sm:max-h-[82vh] max-w-full"
+            className="relative flex items-center justify-center w-[92vw] sm:w-[85vw] h-[78vh] sm:h-[82vh]"
           >
-            <img
+            <Image
               src={currentItem.image}
               alt={categoryTitle}
-              className="max-h-[78vh] sm:max-h-[82vh] max-w-[92vw] sm:max-w-[85vw] w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-2xl border border-white/10 select-none"
+              fill
+              sizes="90vw"
+              placeholder="blur"
+              blurDataURL={IMAGE_SHIMMER_BLUR_DATA_URL}
+              className="object-contain rounded-xl sm:rounded-2xl select-none"
             />
           </motion.div>
         </div>

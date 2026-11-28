@@ -2,11 +2,12 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Images, ArrowRight, MessageCircle, Eye, Sparkles } from "lucide-react";
+import { Images, ArrowRight, MessageCircle, Eye } from "lucide-react";
 import Lightbox from "@/components/Lightbox";
 import { openWhatsApp } from "@/utils/whatsapp";
-import type { WpGalleryAlbum } from "@/data/wpApi";
+import { IMAGE_SHIMMER_BLUR_DATA_URL, type WpGalleryAlbum } from "@/data/wpApi";
 
 interface SliderPhoto {
   id: string;
@@ -20,102 +21,13 @@ interface MasterGallerySliderProps {
   wpAlbums?: WpGalleryAlbum[];
 }
 
-const EVENT_PICTURES: SliderPhoto[] = [
-  {
-    id: "sl-1",
-    image: "/photos/Baby Birthday Theme/WhatsApp Image 2026-09-26 at 11.19.25 PM (1).jpeg",
-    title: "Fairytale Balloon Castle Staging",
-    category: "Baby Birthday Theme",
-    categorySlug: "baby-birthday-theme",
-  },
-  {
-    id: "sl-2",
-    image: "/photos/Couple Room Decor/WhatsApp Image 2026-09-26 at 11.23.45 PM (1).jpeg",
-    title: "Candlelit Suite & Rose Petal Pathway",
-    category: "Couple Room Decor",
-    categorySlug: "couple-room-decor",
-  },
-  {
-    id: "sl-3",
-    image: "/photos/50 Anniversary Theme/WhatsApp Image 2026-09-26 at 11.35.58 PM (1).jpeg",
-    title: "Golden Jubilee Grand Archway",
-    category: "50th Anniversary Theme",
-    categorySlug: "50th-anniversary-theme",
-  },
-  {
-    id: "sl-4",
-    image: "/photos/Rooftop Party Theme/WhatsApp Image 2026-09-26 at 11.28.24 PM.jpeg",
-    title: "Starlight Canopy & Open-Sky Lounge",
-    category: "Rooftop Party Theme",
-    categorySlug: "rooftop-party-theme",
-  },
-  {
-    id: "sl-5",
-    image: "/photos/Haldi Decor Theme/Courtyard_Haldi_setup_decorated_20260927174533.jpg",
-    title: "Marigold Architecture & Brass Urulis",
-    category: "Haldi Decor Theme",
-    categorySlug: "haldi-decor-theme",
-  },
-  {
-    id: "sl-6",
-    image: "/photos/Car Decor/WhatsApp Image 2026-09-26 at 11.34.29 PM (1).jpeg",
-    title: "Monumental Floral Bonnet Ribbon Styling",
-    category: "Car Decor",
-    categorySlug: "car-decor",
-  },
-  {
-    id: "sl-7",
-    image: "/photos/25th anniversary theme/WhatsApp Image 2026-09-26 at 11.36.38 PM.jpeg",
-    title: "Silver Jubilee Crystal Chandelier Hall",
-    category: "25th Anniversary Theme",
-    categorySlug: "25th-anniversary-theme",
-  },
-  {
-    id: "sl-8",
-    image: "/photos/Adult Birthday Theme/WhatsApp Image 2026-09-26 at 11.23.56 PM.jpeg",
-    title: "Black-Tie Neon Milestone Lounge",
-    category: "Adult Birthday Theme",
-    categorySlug: "adult-birthday-theme",
-  },
-  {
-    id: "sl-9",
-    image: "/photos/Mehndi Decor Theme/Bohemian_Mehndi_lounge_with_rugs_20260927174533.jpg",
-    title: "Bohemian Garden Seating & Floral Swings",
-    category: "Mehndi Decor Theme",
-    categorySlug: "mehndi-decor-theme",
-  },
-  {
-    id: "sl-10",
-    image: "/photos/Baby Welcome Decoration/WhatsApp Image 2026-09-26 at 11.24.50 PM (1).jpeg",
-    title: "Auspicious Pastel Cradle Homecoming",
-    category: "Baby Welcome Decoration",
-    categorySlug: "baby-welcome-decoration",
-  },
-  {
-    id: "sl-11",
-    image: "/photos/Corporate Decor Theme/Corporate_annual_celebration_sta…_2K_20260927172904.jpg",
-    title: "Executive Concert-Grade Stage Architecture",
-    category: "Corporate Party Theme",
-    categorySlug: "corporate-party-theme",
-  },
-  {
-    id: "sl-12",
-    image: "/photos/Baby Birthday Theme/WhatsApp Image 2026-09-26 at 11.19.29 PM.jpeg",
-    title: "Pastel Cloud Balloon Architecture",
-    category: "Baby Birthday Theme",
-    categorySlug: "baby-birthday-theme",
-  },
-];
-
 export default function MasterGallerySlider({ wpAlbums = [] }: MasterGallerySliderProps) {
   const [isPaused, setIsPaused] = useState(false);
   const [activeLightboxIndex, setActiveLightboxIndex] = useState<number | null>(null);
 
   const sliderPictures: SliderPhoto[] = useMemo(() => {
-    if (wpAlbums.length === 0) return EVENT_PICTURES;
-
-    const dynamicPhotos: SliderPhoto[] = wpAlbums.flatMap((album) => {
-      const imgs = album.photos.length > 0 ? album.photos : [album.coverImage];
+    return wpAlbums.flatMap((album) => {
+      const imgs = album.photos.length > 0 ? album.photos : album.coverImage ? [album.coverImage] : [];
       return imgs.map((img, idx) => ({
         id: `${album.id}-${idx}`,
         image: img,
@@ -124,14 +36,18 @@ export default function MasterGallerySlider({ wpAlbums = [] }: MasterGallerySlid
         categorySlug: album.categorySlug,
       }));
     });
-
-    return dynamicPhotos.length > 0 ? dynamicPhotos : EVENT_PICTURES;
   }, [wpAlbums]);
 
-  const marqueeItems = useMemo(
-    () => [...sliderPictures, ...sliderPictures],
-    [sliderPictures]
-  );
+  // Repeat items enough times so the infinite marquee fills wide screens even with 1-4 live WP photos
+  const marqueeItems = useMemo(() => {
+    if (sliderPictures.length === 0) return [];
+    const repeats = Math.max(2, Math.ceil(8 / sliderPictures.length));
+    const singleHalf: SliderPhoto[] = [];
+    for (let i = 0; i < repeats; i++) {
+      singleHalf.push(...sliderPictures);
+    }
+    return [...singleHalf, ...singleHalf];
+  }, [sliderPictures]);
 
   return (
     <section id="portfolio" className="py-24 border-b border-[#E7E5E4] overflow-hidden bg-white">
@@ -154,69 +70,80 @@ export default function MasterGallerySlider({ wpAlbums = [] }: MasterGallerySlid
       </div>
 
       {/* ═══════════════════════ CONTINUOUS ANIMATED SLIDER (INFINITE MARQUEE) ═══════════════════════ */}
-      <div 
-        className="relative w-full overflow-hidden py-4"
-        onMouseEnter={() => setIsPaused(true)}
-        onMouseLeave={() => setIsPaused(false)}
-      >
-        {/* Soft edge fade masks for seamless visual transition */}
-        <div className="absolute left-0 inset-y-0 w-16 sm:w-28 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 inset-y-0 w-16 sm:w-28 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
-
-        <motion.div
-          animate={{
-            x: isPaused ? undefined : ["0%", "-50%"],
-          }}
-          transition={{
-            x: {
-              repeat: Infinity,
-              repeatType: "loop",
-              duration: 38,
-              ease: "linear",
-            },
-          }}
-          className="flex gap-5 sm:gap-6 w-max"
+      {marqueeItems.length === 0 ? (
+        <div className="max-w-xl mx-auto px-6 py-12 text-center rounded-3xl bg-[#FAF9F5] border border-[#E7E5E4]">
+          <p className="text-xs sm:text-sm text-stone-600">
+            Our live event gallery is synced with WordPress CMS. Upload gallery albums in WordPress to showcase them here.
+          </p>
+        </div>
+      ) : (
+        <div
+          className="relative w-full overflow-hidden py-4"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
         >
-          {marqueeItems.map((item, idx) => (
-            <div
-              key={`${item.id}-${idx}`}
-              onClick={() => setActiveLightboxIndex(idx % sliderPictures.length)}
-              className="group relative w-[280px] sm:w-[350px] md:w-[390px] h-[220px] sm:h-[260px] rounded-3xl overflow-hidden bg-stone-100 border border-[#C5A880]/50 hover:border-[#C5A880] shadow-sm hover:shadow-[0_16px_40px_rgba(139,38,62,0.18)] transition-all duration-300 cursor-pointer shrink-0"
-            >
-              <img
-                src={item.image}
-                alt={item.title}
-                loading="lazy"
-                className="w-full h-full object-cover filter brightness-[0.95] group-hover:scale-108 group-hover:brightness-105 transition-all duration-700 ease-out select-none"
-              />
+          {/* Soft edge fade masks for seamless visual transition */}
+          <div className="absolute left-0 inset-y-0 w-16 sm:w-28 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 inset-y-0 w-16 sm:w-28 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-              {/* Scrim overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent pointer-events-none" />
+          <motion.div
+            animate={{
+              x: isPaused ? undefined : ["0%", "-50%"],
+            }}
+            transition={{
+              x: {
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 38,
+                ease: "linear",
+              },
+            }}
+            className="flex gap-5 sm:gap-6 w-max"
+          >
+            {marqueeItems.map((item, idx) => (
+              <div
+                key={`${item.id}-${idx}`}
+                onClick={() => setActiveLightboxIndex(idx % sliderPictures.length)}
+                className="group relative w-[280px] sm:w-[350px] md:w-[390px] h-[220px] sm:h-[260px] rounded-3xl overflow-hidden bg-stone-100 border border-[#C5A880]/50 hover:border-[#C5A880] shadow-sm hover:shadow-[0_16px_40px_rgba(139,38,62,0.18)] transition-all duration-300 cursor-pointer shrink-0"
+              >
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  fill
+                  sizes="(max-width: 640px) 280px, (max-width: 768px) 350px, 390px"
+                  placeholder="blur"
+                  blurDataURL={IMAGE_SHIMMER_BLUR_DATA_URL}
+                  className="object-cover filter brightness-[0.95] group-hover:scale-108 group-hover:brightness-105 transition-all duration-700 ease-out select-none"
+                />
 
-              {/* Top category badge */}
-              <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-20 pointer-events-none">
-                <span className="text-[9px] uppercase tracking-wider font-semibold text-[#8C7147] bg-white/95 backdrop-blur-md px-2.5 py-0.5 rounded-full border border-[#C5A880]/40 shadow-xs">
-                  {item.category}
-                </span>
+                {/* Scrim overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent pointer-events-none" />
 
-                <div className="w-8 h-8 rounded-full bg-black/60 backdrop-blur-md text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  <Eye className="w-4 h-4" />
+                {/* Top category badge */}
+                <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-20 pointer-events-none">
+                  <span className="text-[9px] uppercase tracking-wider font-semibold text-[#8C7147] bg-white/95 backdrop-blur-md px-2.5 py-0.5 rounded-full border border-[#C5A880]/40 shadow-xs">
+                    {item.category}
+                  </span>
+
+                  <div className="w-8 h-8 rounded-full bg-black/60 backdrop-blur-md text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                    <Eye className="w-4 h-4" />
+                  </div>
+                </div>
+
+                {/* Bottom title & Action prompt */}
+                <div className="absolute bottom-3.5 left-3.5 right-3.5 text-white z-20 pointer-events-none">
+                  <span className="text-[9px] uppercase font-bold tracking-[0.2em] text-[#EFE6D8] block mb-0.5">
+                    Real Event Production
+                  </span>
+                  <h3 className="font-serif text-sm sm:text-base font-bold text-white drop-shadow leading-snug">
+                    {item.title}
+                  </h3>
                 </div>
               </div>
-
-              {/* Bottom title & Action prompt */}
-              <div className="absolute bottom-3.5 left-3.5 right-3.5 text-white z-20 pointer-events-none">
-                <span className="text-[9px] uppercase font-bold tracking-[0.2em] text-[#EFE6D8] block mb-0.5">
-                  Real Event Production
-                </span>
-                <h3 className="font-serif text-sm sm:text-base font-bold text-white drop-shadow leading-snug">
-                  {item.title}
-                </h3>
-              </div>
-            </div>
-          ))}
-        </motion.div>
-      </div>
+            ))}
+          </motion.div>
+        </div>
+      )}
 
       {/* Prominent Master Gallery Navigation CTAs */}
       <div className="max-w-7xl mx-auto px-6 mt-12 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -224,7 +151,7 @@ export default function MasterGallerySlider({ wpAlbums = [] }: MasterGallerySlid
           href="/gallery"
           className="w-full sm:w-auto px-9 py-4 rounded-full bg-[#8B263E] hover:bg-[#721D32] active:scale-95 text-white text-xs font-semibold uppercase tracking-[0.2em] shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 group hover:-translate-y-0.5"
         >
-          <span>Explore Full Master Gallery (150+ Photos)</span>
+          <span>Explore Full Master Gallery</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </Link>
 

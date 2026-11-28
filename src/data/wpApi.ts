@@ -2,6 +2,16 @@ export const WP_API_URL = (
   process.env.NEXT_PUBLIC_WP_API_URL || "https://cms.craft4events.in/wp-json/wp/v2"
 ).replace(/\/+$/, "");
 
+const WP_FETCH_HEADERS: HeadersInit = {
+  "User-Agent": "Mozilla/5.0 (compatible; Craft4Events-NextJS/1.0)",
+  Accept: "application/json",
+};
+
+const WP_FETCH_TIMEOUT_MS = 8000;
+
+export const IMAGE_SHIMMER_BLUR_DATA_URL =
+  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjVmNGYwIi8+PC9zdmc+";
+
 export interface SiteContent {
   hero_headline: string;
   hero_subheadline: string;
@@ -63,12 +73,7 @@ function cleanText(value: unknown): string {
 
 function getCustomField(item: Record<string, any>, key: string): unknown {
   if (!item || typeof item !== "object") return undefined;
-  return (
-    item[key] ??
-    item.acf?.[key] ??
-    item.meta?.[key] ??
-    item.pods?.[key]
-  );
+  return item[key] ?? item.acf?.[key] ?? item.meta?.[key] ?? item.pods?.[key];
 }
 
 function nonEmptyString(value: unknown, fallback: string): string {
@@ -83,12 +88,14 @@ function nonEmptyString(value: unknown, fallback: string): string {
  * Extracts an image URL from a string URL or a Pods/WP media object ({ guid, source_url, url }).
  */
 export function extractMediaUrl(media: unknown): string | null {
+  if (!media) return null;
+
   if (typeof media === "string") {
     const trimmed = media.trim();
     return trimmed.length > 0 ? trimmed : null;
   }
 
-  if (media && typeof media === "object") {
+  if (typeof media === "object") {
     const obj = media as Record<string, any>;
     if (typeof obj.source_url === "string" && obj.source_url.trim()) {
       return obj.source_url.trim();
@@ -96,7 +103,12 @@ export function extractMediaUrl(media: unknown): string | null {
     if (typeof obj.guid === "string" && obj.guid.trim()) {
       return obj.guid.trim();
     }
-    if (obj.guid && typeof obj.guid === "object" && typeof obj.guid.rendered === "string" && obj.guid.rendered.trim()) {
+    if (
+      obj.guid &&
+      typeof obj.guid === "object" &&
+      typeof obj.guid.rendered === "string" &&
+      obj.guid.rendered.trim()
+    ) {
       return obj.guid.rendered.trim();
     }
     if (typeof obj.url === "string" && obj.url.trim()) {
@@ -108,9 +120,15 @@ export function extractMediaUrl(media: unknown): string | null {
 }
 
 /**
- * Extracts an array of image URLs from Pods gallery_photos (array of strings or media objects).
+ * Extracts an array of image URLs from Pods gallery_photos:
+ * - Array of strings or Pods media objects
+ * - Single Pods media object (returned by Pods when 1 image is attached)
+ * - Associative object map of Pods media objects keyed by ID
+ * - Comma-separated string of URLs
  */
 export function extractMediaGallery(photos: unknown): string[] {
+  if (!photos) return [];
+
   if (Array.isArray(photos)) {
     return photos
       .map((entry) => extractMediaUrl(entry))
@@ -124,14 +142,42 @@ export function extractMediaGallery(photos: unknown): string[] {
       .filter(Boolean);
   }
 
+  if (typeof photos === "object") {
+    const singleUrl = extractMediaUrl(photos);
+    if (singleUrl) return [singleUrl];
+
+    // Pods multi-file fields can sometimes serialize as { "22": { ... }, "23": { ... } }
+    return Object.values(photos as Record<string, unknown>)
+      .map((entry) => extractMediaUrl(entry))
+      .filter((url): url is string => Boolean(url));
+  }
+
   return [];
 }
 
+/**
+ * Extracts image URLs from Gutenberg blocks or raw HTML inside content.rendered.
+ */
+export function extractImagesFromHtml(html: unknown): string[] {
+  if (typeof html !== "string" || !html.trim()) return [];
+  const urls: string[] = [];
+  const imgSrcRegex = /<img[^>]+src=["']([^"']+)["']/gi;
+  let match: RegExpExecArray | null;
+  while ((match = imgSrcRegex.exec(html)) !== null) {
+    if (match[1]?.trim()) {
+      urls.push(match[1].trim());
+    }
+  }
+  return urls;
+}
+
 function slugify(value: string): string {
-  return value
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "") || "curated-album";
+  return (
+    value
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "curated-album"
+  );
 }
 
 function extractCategory(item: Record<string, any>): string {
@@ -176,20 +222,15 @@ export function formatWhatsAppHref(phone: string, text?: string): string {
     : `https://wa.me/${digits}`;
 }
 
-const WP_FETCH_HEADERS: HeadersInit = {
-  "User-Agent": "Mozilla/5.0 (compatible; Craft4Events-NextJS/1.0)",
-  Accept: "application/json",
-};
-
 /**
- * Fetches latest dynamic site content from WordPress /site_content using ISR (revalidate: 60s).
+ * Fetches latest dynamic site content from WordPress /site_content using ISR (revalidate: 30s).
  */
 export async function fetchSiteContent(): Promise<SiteContent> {
   try {
     const res = await fetch(`${WP_API_URL}/site_content?_embed&per_page=1`, {
       headers: WP_FETCH_HEADERS,
-      signal: AbortSignal.timeout(5000),
-      next: { revalidate: 60 },
+      signal: AbortSignal.timeout(WP_FETCH_TIMEOUT_MS),
+      next: { revalidate: 30, tags: ["wp-content", "site-content"] },
     });
 
     if (!res.ok) return DEFAULT_SITE_CONTENT;
@@ -220,23 +261,20 @@ export async function fetchSiteContent(): Promise<SiteContent> {
         DEFAULT_SITE_CONTENT.owner_email
       ),
     };
-  } catch (error) {
-    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
-      return DEFAULT_SITE_CONTENT;
-    }
+  } catch {
     return DEFAULT_SITE_CONTENT;
   }
 }
 
 /**
- * Fetches dynamic gallery albums/folders from WordPress /gallery_album using ISR (revalidate: 60s).
+ * Fetches dynamic gallery albums/folders from WordPress /gallery_album using ISR (revalidate: 30s).
  */
 export async function fetchGalleryAlbums(): Promise<WpGalleryAlbum[]> {
   try {
     const res = await fetch(`${WP_API_URL}/gallery_album?_embed&per_page=100`, {
       headers: WP_FETCH_HEADERS,
-      signal: AbortSignal.timeout(5000),
-      next: { revalidate: 60 },
+      signal: AbortSignal.timeout(WP_FETCH_TIMEOUT_MS),
+      next: { revalidate: 30, tags: ["wp-content", "gallery-albums"] },
     });
 
     if (!res.ok) return [];
@@ -257,13 +295,22 @@ export async function fetchGalleryAlbums(): Promise<WpGalleryAlbum[]> {
         cleanText(item.excerpt?.rendered) ||
         "Bespoke handcrafted event setup and luxury celebration decor.";
 
-      const photos = extractMediaGallery(getCustomField(item, "gallery_photos"));
+      const podsPhotos = extractMediaGallery(getCustomField(item, "gallery_photos"));
+      const contentPhotos = extractImagesFromHtml(item.content?.rendered);
       const coverFromField = extractMediaUrl(getCustomField(item, "cover_image"));
       const coverFromEmbed = extractMediaUrl(item._embedded?.["wp:featuredmedia"]?.[0]);
-      const coverImage = coverFromField || coverFromEmbed || photos[0] || "";
 
-      const combinedPhotos = photos.length > 0 ? photos : coverImage ? [coverImage] : [];
-      if (!coverImage && combinedPhotos.length === 0) continue;
+      const uniquePhotos = Array.from(
+        new Set([
+          ...podsPhotos,
+          ...contentPhotos,
+          ...(coverFromField ? [coverFromField] : []),
+          ...(coverFromEmbed ? [coverFromEmbed] : []),
+        ])
+      );
+
+      const coverImage = coverFromField || coverFromEmbed || uniquePhotos[0] || "";
+      if (!coverImage && uniquePhotos.length === 0) continue;
 
       albums.push({
         id: `wp-album-${item.id ?? slugify(title)}`,
@@ -272,16 +319,13 @@ export async function fetchGalleryAlbums(): Promise<WpGalleryAlbum[]> {
         category,
         categorySlug,
         description,
-        coverImage: coverImage || combinedPhotos[0],
-        photos: combinedPhotos,
+        coverImage: coverImage || uniquePhotos[0],
+        photos: uniquePhotos.length > 0 ? uniquePhotos : [coverImage],
       });
     }
 
     return albums;
-  } catch (error) {
-    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
-      return [];
-    }
+  } catch {
     return [];
   }
 }
@@ -290,8 +334,8 @@ export async function fetchLiveThemesFromWP(): Promise<WpThemeAdapted[]> {
   try {
     const res = await fetch(`${WP_API_URL}/posts?_embed&per_page=100`, {
       headers: WP_FETCH_HEADERS,
-      signal: AbortSignal.timeout(5000),
-      next: { revalidate: 60 },
+      signal: AbortSignal.timeout(WP_FETCH_TIMEOUT_MS),
+      next: { revalidate: 30, tags: ["wp-content", "themes"] },
     });
 
     if (!res.ok) return [];
@@ -299,37 +343,33 @@ export async function fetchLiveThemesFromWP(): Promise<WpThemeAdapted[]> {
     const posts = await res.json();
     if (!Array.isArray(posts)) return [];
 
-    return posts.map((post: any) => {
-      const featuredMedia =
-        post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
-        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=85&w=1200";
+    return posts
+      .map((post: any) => {
+        const featuredMedia = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url || "";
+        const terms = post._embedded?.["wp:term"]?.[0] || [];
+        const primaryCategory = terms[0]?.name || "Curated Theme";
+        const primarySlug = terms[0]?.slug || "curated-theme";
 
-      const terms = post._embedded?.["wp:term"]?.[0] || [];
-      const primaryCategory = terms[0]?.name || "Baby Birthday Theme";
-      const primarySlug = terms[0]?.slug || "baby-birthday-theme";
-
-      return {
-        id: `wp-${post.id}`,
-        name: cleanText(post.title?.rendered) || "Curated Event Theme",
-        category: primaryCategory,
-        categorySlug: primarySlug,
-        image: featuredMedia,
-        gallery: [featuredMedia],
-        description:
-          cleanText(post.excerpt?.rendered) || "Bespoke handcrafted event setup and production.",
-        priceEstimate: "Custom Quote",
-        inclusions: [
-          "Complete Setup Fabrication",
-          "Design Blueprint",
-          "Lighting & SFX Sync",
-          "On-site Crew Management",
-        ],
-      };
-    });
-  } catch (error) {
-    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
-      return [];
-    }
+        return {
+          id: `wp-${post.id}`,
+          name: cleanText(post.title?.rendered) || "Curated Event Theme",
+          category: primaryCategory,
+          categorySlug: primarySlug,
+          image: featuredMedia,
+          gallery: featuredMedia ? [featuredMedia] : [],
+          description:
+            cleanText(post.excerpt?.rendered) || "Bespoke handcrafted event setup and production.",
+          priceEstimate: "Custom Quote",
+          inclusions: [
+            "Complete Setup Fabrication",
+            "Design Blueprint",
+            "Lighting & SFX Sync",
+            "On-site Crew Management",
+          ],
+        };
+      })
+      .filter((t) => Boolean(t.image));
+  } catch {
     return [];
   }
 }

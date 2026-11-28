@@ -1,15 +1,14 @@
 import { NextResponse } from "next/server";
+import { WP_API_URL } from "@/data/wpApi";
 
 export async function GET() {
-  const wpBase = process.env.NEXT_PUBLIC_WORDPRESS_URL || "http://create4moments.local";
-
   try {
-    const res = await fetch(`${wpBase}/wp-json/wp/v2/c4m-themes?_embed&per_page=50`, {
-      cache: "no-store",
-      signal: AbortSignal.timeout(5000),
+    const res = await fetch(`${WP_API_URL}/gallery_album?_embed&per_page=100`, {
+      signal: AbortSignal.timeout(8000),
+      next: { revalidate: 30, tags: ["wp-content", "gallery-albums"] },
       headers: {
         "User-Agent": "Mozilla/5.0 (compatible; Craft4Events-NextJS/1.0)",
-        "Accept": "application/json",
+        Accept: "application/json",
       },
     });
 
@@ -23,13 +22,14 @@ export async function GET() {
     }
 
     const items = posts.map((post: any) => {
-      const media = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+      const media = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url || "";
       return {
         id: String(post.id),
         name: post.title?.rendered || "Curated Theme",
-        category: "Live WP CMS",
-        image: media || "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800",
+        category: post.album_category || "Live WP CMS",
+        image: media,
         description:
+          post.short_description ||
           post.content?.rendered?.replace(/<[^>]+>/g, "").trim() ||
           post.excerpt?.rendered?.replace(/<[^>]+>/g, "").trim() ||
           "Exclusive turnkey event styling.",

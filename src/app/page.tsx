@@ -1,7 +1,7 @@
 import HomePageClient from "@/components/HomePageClient";
 import { fetchGalleryAlbums, fetchSiteContent } from "@/data/wpApi";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 30;
 
 export default async function HomePage() {
   const [siteContent, wpAlbums] = await Promise.all([
